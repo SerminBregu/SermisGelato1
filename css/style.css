@@ -5,51 +5,58 @@
  *
  * Made By MaterializeCSS.com
  */
- body {
-  font-family: 'Raleway', sans-serif; 
+
+body {
+    font-family: 'Poiret One', cursive;
 }
 
 nav ul a,
 nav .brand-logo {
   color: #55A5EC;
 }
-/* dimensione barra menù nello schermo */
-nav .brand-logo.center {
-    padding: 0 40px;
+
+nav .brand-logo{
+   font-family: 'Great Vibes', cursive;
 }
 
-nav .brand-logo {
-font-family: 'Great Vibes', cursive;
+.nav-wrapper{
+    padding: 0 50px;
 }
+
 p {
   line-height: 2rem;
 }
 
-
 .button-collapse {
-  color: #26a69a;
+  color: #55A5EC;
 }
 
 .parallax-container {
-  min-height: 300px;
+  min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 50%;
-  }
+
+.section-intro{
+    height: 100%;
+    width: 100%;
+}
+
+
 .header {
-  margin-top: 15%;
+    margin-top: 15%;
 }
+
 .header-subtitle {
-  margin-top: 10%;
-  font-size: 1.7em;
+    margin-top: 13%;
+    font-size: 1.7em;
 }
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 50%;
+    top: 40%;
   }
   #index-banner .section {
     top: 10%;
@@ -60,13 +67,61 @@ p {
   #index-banner .section {
     top: 0;
   }
+    .nav-wrapper{
+    padding: 0 50px;
+}
+}
+
+.col-servizio {
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 .icon-block {
-  padding: 0 20px;
+  padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+#servizio {
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+
+.section-registrazione{
+    height: 100%;
+    width: 100%;
+}
+
+.registrazione-icon {
+    font-size: 7em;
+    margin-top: 60px;
+}
+
+.registrazione-subtitle {
+    font-size: 1.4em;
+    margin-top: 14%;
+}
+
+.btn-registrazione{
+    width: 100%;
+}
+
+.ospita-icon{
+    font-size: 6em;   
+}
+
+.ospita-subtitle {
+    font-size: 1.7em;
+    margin-top: 14%;
+    line-height: 2em;
+
+}
+
+.btn-ospita{
+    width: 100%;
 }
 
 footer.page-footer {
